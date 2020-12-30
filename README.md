@@ -2,7 +2,9 @@
 ## 安装nacos
 ### 下载
 1.git clone https://github.com/alibaba/nacos.git 
+
 2.mvn -Prelease-nacos clean install -U 
+
 3.ls -al distribution/target/ 
 4.cd distribution/target/nacos-server-$version/nacos/bin //change the $version to your actual path 
 ### 启动服务器 
